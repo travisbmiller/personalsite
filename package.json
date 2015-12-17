@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/travisbmiller/personalsite/issues"
   },
-  "homepage": "https://github.com/travisbmiller/personalsite#readme"
+  "homepage": "https://github.com/travisbmiller/personalsite#readme",
+  "dependencies": {
+    "express": "^4.13.3"
+  }
 }
