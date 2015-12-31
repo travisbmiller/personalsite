@@ -1,6 +1,6 @@
 var express = require('express');
 var app = express();
-var port = 9001;
+var port = 9000;
 
 app.use(express.static(__dirname + '/client'));
 
