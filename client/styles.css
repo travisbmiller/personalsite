@@ -1,3 +1,17 @@
+body {
+  background: #FFF;
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  wdith: 40px;
+  height: 40px;
+  position: absolute;
+  top: 10px;
+  left: 14px;
+}
+
 article .main {
   display: -webkit-flex;
   display: flex;
@@ -27,3 +41,50 @@ h2 {
   font-size: 72px;
 }
 
+
+.top-slide, .bottom-slide {
+  position: absolute;
+  left: 0;
+  width: 100vw;
+  background: #fafafa;
+  z-index: 100;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.top-slide {
+  top: 0;
+  bottom: 50vh;
+}
+
+.bottom-slide {
+  top: 50vh;
+  bottom: 0;
+}
+
+.slide-up {
+  bottom: 100vh;
+}
+
+.slide-down {
+  top: 100vh;
+}
+
+.circle {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background: #fff;
+  transform: translate(-50%, -50%);
+  
+  transition: 0.6s ease-in;
+}
+
+.full {
+  height: 200vh;
+  width: 200vw;
+  border-radius: 50%;
+}
